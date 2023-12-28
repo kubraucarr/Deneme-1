@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+html {
+    font-family:"Open Sans", sans-serif;
+}
+
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+    
+}
+ 
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+ #navbar ul li a {
+    padding: 0.75rem;
+ }
+
+ #navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 5px;
+ }
+
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+}
+
+#home img {
+    
+    max-width: 200px;
+   height: auto;
+   border-radius:100%;
+}
+#home .name h2 {
+    margin-bottom:0.75rem ;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+}
+
+#training{
+    color: white;
+    padding: 1rem;
+
+}
+
+ .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ .item{
+    text-align: center;
+    padding: 0.5rem;
+    width: 33%;
+    font-style: italic;
+}
+ .item:hover{
+    opacity: 0.6;
+}
+
+
+#courses{
+    color: #333;
+    padding: 1rem;
+}
+
+
+#courses .container .courses  {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    
+}
+
+
+#courses .container .courses .course{
+   display: flex;
+    padding: 1.5rem;
+    margin-bottom:1.5rem;
+}
+
+.courses .course .courses-img{
+    margin-right: 0.5rem;
+    position: relative;
+}
+
+.courses .course .courses-img span{
+    background: red;
+    padding: 0.25rem;
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.course-info{
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+}
+
+.title{
+    margin-top:2rem;
+    margin-right: 2rem;
+    margin-bottom:0.5rem;
+    background-color: beige;
+    font-style: italic;
+    letter-spacing: 1.2px;
+    font-weight: 700;
+}
+
+.description{
+    letter-spacing: 1.2px;
+    margin-bottom: 1rem;
+
+}
+.instructor{
+    font-size: 0.8rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.9;
+}
+
+.rating{
+    font-size: 0.6rem;
+    margin-bottom: 0.25rem;
+    opacity: 0.6;
+}
+
+/*Contact*/
+#contact{
+    color: white;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#contact .contact-form ul li a{
+    margin: 1rem;
+    font-size: 2rem;
+    
+}
+
+#contact .contact-form ul li a:hover {
+    opacity:0.6;
+}
